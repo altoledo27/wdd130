@@ -60,7 +60,8 @@ footer{
     border-top: 1px solid #000;
     text-align: center;
 }
-/*Class Selectors */
+
+/* Class Selectors */
 .box {
     margin: 1rem;
     border: 5px solid rgba(199, 130, 131);
