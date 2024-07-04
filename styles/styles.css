@@ -10,7 +10,7 @@ header, .grid, footer {
 }
 nav {
 
-    background-color: steelblue;
+    background-color: #427AA9;
     padding: 1rem;
     display: flex;
     justify-content: space-evenly;
