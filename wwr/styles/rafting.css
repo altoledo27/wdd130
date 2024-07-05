@@ -2,7 +2,7 @@
 :root {
     --primary-color: #123f43;
     --secondary-color: #fff2ae;
-    --accent1-color: #ff751f;
+    --accent1-color: #CC4E00;
     --accent2-color: #2de1fc;
     --accent3-color: #ffdf64;
 
@@ -90,7 +90,7 @@ div.hero {
     float: right;
 }
 .hero p{
-    color:#ffffff;
+    color: var(--primary-color);
 
 }
 
@@ -136,7 +136,7 @@ p {
     grid-row:2/3;
     justify-items: center;
     font-family: var(--link-font);
-    color: #ff751f;
+    color: var(--accent1-color);
     text-align: center;
 }
 .adventure img{
