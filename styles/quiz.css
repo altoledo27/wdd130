@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Numans&family=PT+Mono&display=swap');
+
+:root {
+    --heading-font: "PT Mono", monospace;
+    --paragraph-font:"Numans", sans-serif;
+    --background-color: #F5F5F5;
+    --header-color: #266969;
+    --paragraph-color: #39393A;
+    --button-pre-color: #f58F29;
+    --button-post-color: #E05263;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+main{
+    margin: 1rem;
+}
+h1 {
+    font-family: var(--heading-font);
+    margin-top: 1rem;
+    color: var(--header-color);
+    font-size: 2em;
+    width: 670px;
+    height: 40px;
+    text-align: left;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    width: 680px;
+    padding: 0.5rem;
+    border-radius: 2rem;
+    background-color: var(--background-color);
+    align-items: center;
+}
+fieldset{
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem;
+    margin-top: 1rem;
+    width: 600px;
+    align-self: center;
+    border: none;
+}
+.form-question{
+    font-family: var(--paragraph-font);
+    color: var(--paragraph-color);
+    font-size: 1em;
+    margin: 1rem;
+
+}
+.text-box input{
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    width: 600px;
+    height: 30px;
+    font-family: var(--paragraph-font);
+}
+button{
+    margin: 1rem;
+    font-family: var(--heading-font);
+    background-color: var(--button-pre-color);
+    color:black;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+    width: 600px;
+    height: 50px;
+
+}
+textarea{
+    width: 600px;
+    height: 70px;
+    margin-top: 0.5rem;
+    font-family: var(--paragraph-font);
+    padding: 0.5rem;
+}
+select{
+    width: 600px;
+    height: 40px;
+    margin-top: 0.5rem;
+    font-family: var(--paragraph-font);
+    padding: 0.5rem;
+
+}
+
+button:hover {
+    background-color: var(--button-post-color);
+    color:white;
+}

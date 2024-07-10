@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 130 | HTML Form - Quiz</title>
+    <link rel="stylesheet" href="styles/quiz.css">
+</head>
+<body>
+    <header>
+        <h1>✅Basic HTML and CSS Quiz</h1>
+    </header>
+    <main>
+        <form>
+            <fieldset>
+                <div class="form-question text-box">
+                    <label class="question-number">1.- </label><label for="q1">What HTML tag is used to define a first-level heading?</label>
+                    <input type="text" id="q1" name="q1">
+                </div>
+                <div class="form-question">
+                    <label class="question-number">2.- </label><label for="q2">Explain the difference between 'margin' and 'padding' in CSS:</label>
+                    <textarea id="q2" name="q2" rows="4"></textarea>
+                </div>
+                <div class="form-question">
+                    <label class="question-number">3.- </label><label for="q3">What is the correct HTML tag for creating a link?</label>
+                    <select id="q3" name="q3">
+                        <option value="" selected disabled>Select one</option>
+                        <option value="a">&lt;a&gt;</option>
+                        <option value="link">&lt;link&gt;</option>
+                        <option value="href">&lt;href&gt;</option>
+                        <option value="anchor">&lt;anchor&gt;</option>
+                    </select>
+                </div>
+                <div class="form-question text-box">
+                    <label class="question-number">4.- </label><label for="q4">How many heading levels does HTML allow?</label>
+                    <input type="number" id="q4" name="q4">
+                </div>
+                <div class="form-question text-box">
+                    <label class="question-number">5.- </label><label for="q5">Which CSS property is used to change the text color?</label>
+                    <select id="q5" name="q5">
+                        <option value="" selected disabled>Select one</option>
+                        <option value="opt1">font-color</option>
+                        <option value="opt2">text-color</option>
+                        <option value="opt3">color</option>
+                        <option value="opt4">background-color</option>
+                    </select>
+                </div>
+                <div class="form-question text-box">
+                    <label class="question-number">6.- </label><label for="q6">Which CSS property is used to make text bold?</label>
+                    <input type="text" id="q6" name="q6">
+                </div>
+            </fieldset>
+            <button type="submit">Submit Quiz</button>
+        </form>
+    </main>
+    
+</body>
+</html>
