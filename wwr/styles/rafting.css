@@ -247,7 +247,7 @@ fieldset{
     margin: 0.5rem 0;
     margin-top: 0rem;
 }
-.main-label, .message label {
+legend, .main-label, .message label {
     font-family: var(--link-font);
     font-weight: 700;
     padding: 0.5rem;
